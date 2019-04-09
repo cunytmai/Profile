@@ -1,0 +1,112 @@
+.skillsFlexbox {
+  display: flex;
+  width: 90%;
+  height: 735px;
+  margin: 0 auto;
+  margin-top: -250px;
+  border: 1px solid #E6ECF8;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #E6ECF8;
+  background-color: #FFF;
+  font-family: 'Roboto Slab', serif;
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  p {
+    // margin: 50px 5px 50px 5px;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .skillsList {
+    list-style: none;
+    li {
+      font-weight: lighter;
+    }
+    .desTitle {
+      font-size: 20px;
+      font-weight: normal;
+      color: #8C43FF;
+      text-decoration: underline;
+    }
+  }
+  .box1 {
+    width: 33.33%;
+    border-right: 1px solid #E6ECF8;
+    text-align: center;
+    .box1Icon {
+      padding-top: 50px;
+      margin-bottom: 50px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .description {
+      margin: 50px 5px 50px 5px;
+    }
+    .skillsList {
+      margin-top: 40px;
+      .desTitle {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .box2 {
+    width: 33.33%;
+    border-right: 1px solid #E6ECF8;
+    text-align: center;
+    .box2Icon {
+      padding-top: 50px;
+      margin-bottom: 50px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    li {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: left;
+      list-style-type: decimal;
+    }
+    .description {
+      margin: 50px 5px 50px 5px;
+    }
+    .skillsList {
+      margin-top: 80px;
+    }
+  }
+  .box3 {
+    width: 33.33%;
+    text-align: center;
+    .box3Icon {
+      padding-top: 50px;
+      margin-bottom: 50px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    li {
+      font-size: 20px;
+      text-align: left;
+      list-style-type: decimal;
+    }
+    .topicStart {
+      margin-top: 40px;
+      margin-left: 5px;
+      font-size: 20px;
+      font-weight: normal;
+      color: #8C43FF;
+      text-align: left;
+    }
+    .description {
+      margin: 50px 5px 50px 5px;
+    }
+    .interestDescrip {
+      margin-top: 5px;
+    }
+  }
+}

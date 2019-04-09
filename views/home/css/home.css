@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+.navbar-default {
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-radius: 0px;
+  border: 0;
+  background-color: white; }
+  .navbar-default .alert {
+    width: 20%;
+    margin: 20px auto;
+    text-align: center;
+    display: none; }
+  .navbar-default .container-fluid .navbar-header {
+    margin: 15px 0 0 75px; }
+    .navbar-default .container-fluid .navbar-header .logo {
+      width: 95px;
+      height: 95px; }
+  .navbar-default .container-fluid .navbar-nav {
+    float: right;
+    margin-right: 100px; }
+    .navbar-default .container-fluid .navbar-nav li {
+      font-family: 'Roboto Slab', serif;
+      font-size: 25px;
+      font-weight: normal;
+      margin: 40px 20px 0 0;
+      transition: 150ms;
+      cursor: pointer; }
+    .navbar-default .container-fluid .navbar-nav .home {
+      padding: 0 5px 0 5px; }
+    .navbar-default .container-fluid .navbar-nav .home:hover {
+      border-bottom: 2px solid black; }
+    .navbar-default .container-fluid .navbar-nav .about {
+      padding: 0 5px 0 5px; }
+    .navbar-default .container-fluid .navbar-nav .about:hover {
+      border-bottom: 2px solid black; }
+    .navbar-default .container-fluid .navbar-nav .skills {
+      padding: 0 5px 0 5px; }
+    .navbar-default .container-fluid .navbar-nav .skills:hover {
+      border-bottom: 2px solid black; }
+    .navbar-default .container-fluid .navbar-nav .projects {
+      padding: 0 5px 0 5px; }
+    .navbar-default .container-fluid .navbar-nav .projects:hover {
+      border-bottom: 2px solid black; }
+    .navbar-default .container-fluid .navbar-nav .contacts {
+      border: 1px solid black;
+      padding: 0 10px 0 10px;
+      border-radius: 10px;
+      margin-left: 250px;
+      transition: 250ms;
+      transition-delay: 100ms; }
+    .navbar-default .container-fluid .navbar-nav .contacts:hover {
+      color: white;
+      background-color: black; }
+  .navbar-default .fa-bars {
+    display: none; }
+
+.sideBar {
+  position: fixed;
+  background-color: rgba(223, 223, 223, 0.5);
+  width: 50px;
+  height: 110px;
+  right: -5px;
+  border: 1px solid black;
+  border-radius: 5px; }
+  .sideBar ul {
+    height: 100%;
+    list-style: none; }
+  .sideBar .top {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer; }
+  .sideBar .linkedinIcon {
+    position: absolute;
+    top: 35px;
+    left: 10px; }
+  .sideBar .gitHubIcon {
+    position: absolute;
+    top: 70px;
+    left: 10px; }
+
+.footer {
+  height: 350px;
+  margin-top: 50px;
+  background-color: #8C43FF;
+  color: #FFF;
+  font-family: 'Roboto Slab', serif; }
+  .footer .footerContainer {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .footer .footerContainer .footerDescription {
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center; }
+    .footer .footerContainer .links {
+      margin: 50px 0 50px 30px;
+      text-align: center; }
+      .footer .footerContainer .links .fa-linkedin-in {
+        padding: 11px 10px 11px 10px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        color: white;
+        transition: 300ms; }
+      .footer .footerContainer .links .fa-linkedin-in:hover {
+        color: #8C43FF;
+        background-color: #FFF; }
+      .footer .footerContainer .links .fa-github {
+        padding: 10px 10px 10px 10px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 40px;
+        color: white;
+        transition: 300ms; }
+      .footer .footerContainer .links .fa-github:hover {
+        color: #8C43FF;
+        background-color: #FFF; }
+      .footer .footerContainer .links .fa-facebook-f {
+        padding: 10px 12px 10px 12px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 40px;
+        color: white;
+        transition: 300ms; }
+      .footer .footerContainer .links .fa-facebook-f:hover {
+        color: #8C43FF;
+        background-color: #FFF; }
+      .footer .footerContainer .links .fa-twitter {
+        padding: 10px 10px 10px 10px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        color: white;
+        transition: 300ms; }
+      .footer .footerContainer .links .fa-twitter:hover {
+        color: #8C43FF;
+        background-color: #FFF; }
+      .footer .footerContainer .links .fa-instagram {
+        padding: 10px 10px 10px 10px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 25px;
+        color: white;
+        transition: 300ms; }
+      .footer .footerContainer .links .fa-instagram:hover {
+        color: #8C43FF;
+        background-color: #FFF; }
+      .footer .footerContainer .links i {
+        margin-right: 50px; }
+    .footer .footerContainer .copyright {
+      text-align: center;
+      font-size: 13px;
+      font-weight: lighter; }
+
+.aboutBackground {
+  height: 750px;
+  margin-top: 100px;
+  padding-top: 70px;
+  color: white;
+  background-color: #8C43FF; }
+  .aboutBackground .startBodyBracket {
+    margin-left: 150px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive; }
+  .aboutBackground .endBodyBracket {
+    margin-left: 150px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive; }
+  .aboutBackground .aboutMe {
+    font-family: 'Roboto Slab', serif; }
+    .aboutBackground .aboutMe h2 {
+      padding-top: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold; }
+    .aboutBackground .aboutMe p {
+      margin: 0 auto;
+      padding-bottom: 50px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: lighter; }
+
+.skillsFlexbox {
+  display: flex;
+  width: 90%;
+  height: 735px;
+  margin: 0 auto;
+  margin-top: -250px;
+  border: 1px solid #E6ECF8;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #E6ECF8;
+  background-color: #FFF;
+  font-family: 'Roboto Slab', serif; }
+  .skillsFlexbox h3 {
+    font-size: 25px;
+    font-weight: bold; }
+  .skillsFlexbox p {
+    font-size: 15px;
+    font-weight: lighter; }
+  .skillsFlexbox .skillsList {
+    list-style: none; }
+    .skillsFlexbox .skillsList li {
+      font-weight: lighter; }
+    .skillsFlexbox .skillsList .desTitle {
+      font-size: 20px;
+      font-weight: normal;
+      color: #8C43FF;
+      text-decoration: underline; }
+  .skillsFlexbox .box1 {
+    width: 33.33%;
+    border-right: 1px solid #E6ECF8;
+    text-align: center; }
+    .skillsFlexbox .box1 .box1Icon {
+      padding-top: 50px;
+      margin-bottom: 50px; }
+      .skillsFlexbox .box1 .box1Icon img {
+        width: 50px;
+        height: 50px; }
+    .skillsFlexbox .box1 .description {
+      margin: 50px 5px 50px 5px; }
+    .skillsFlexbox .box1 .skillsList {
+      margin-top: 40px; }
+      .skillsFlexbox .box1 .skillsList .desTitle {
+        margin-top: 20px;
+        margin-bottom: 20px; }
+  .skillsFlexbox .box2 {
+    width: 33.33%;
+    border-right: 1px solid #E6ECF8;
+    text-align: center; }
+    .skillsFlexbox .box2 .box2Icon {
+      padding-top: 50px;
+      margin-bottom: 50px; }
+      .skillsFlexbox .box2 .box2Icon img {
+        width: 50px;
+        height: 50px; }
+    .skillsFlexbox .box2 li {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: left;
+      list-style-type: decimal; }
+    .skillsFlexbox .box2 .description {
+      margin: 50px 5px 50px 5px; }
+    .skillsFlexbox .box2 .skillsList {
+      margin-top: 80px; }
+  .skillsFlexbox .box3 {
+    width: 33.33%;
+    text-align: center; }
+    .skillsFlexbox .box3 .box3Icon {
+      padding-top: 50px;
+      margin-bottom: 50px; }
+      .skillsFlexbox .box3 .box3Icon img {
+        width: 50px;
+        height: 50px; }
+    .skillsFlexbox .box3 li {
+      font-size: 20px;
+      text-align: left;
+      list-style-type: decimal; }
+    .skillsFlexbox .box3 .topicStart {
+      margin-top: 40px;
+      margin-left: 5px;
+      font-size: 20px;
+      font-weight: normal;
+      color: #8C43FF;
+      text-align: left; }
+    .skillsFlexbox .box3 .description {
+      margin: 50px 5px 50px 5px; }
+    .skillsFlexbox .box3 .interestDescrip {
+      margin-top: 5px; }
+
+body .titleBox {
+  margin-top: 185px; }
+  body .titleBox h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center; }
+  body .titleBox p {
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 21px;
+    text-align: center; }

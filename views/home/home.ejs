@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tony Mai | Web Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TODO">
+  <%- include('../partials/src') %>
+  <link href="/home/css/home.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <%- include('../partials/navbar') %>
+  
+  <div class="titleBox">
+    <h1>Aspiring Front-End Developer, Creeping Towards Full Stack</h1>
+    <p>Take full pride of my work and have a blazing passion for Front-End Development, and code in general.</p>
+  </div>
+
+  <div class="aboutBackground">
+    <span class="startBodyBracket"></span>
+    <div class="aboutMe">
+      <h2>Hello, I'm Tony and welcome to my profile.</h2>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br>
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      </p>
+    </div>
+    <span class="endBodyBracket"></span>
+  </div>
+
+  <div class="skillsFlexbox">
+    <div class="box1">
+      <div class="box1Icon">
+          <img class="codeLogo" src="../home/image/frontend.svg">
+      </div>
+
+      <div class="description">
+        <h3>Front-end Developer</h3>
+        <p>
+          I genuinely like to code a web page from scratch. Translating a UI/UX design
+          and bringing life to it onto the browser. UI/UX designers portray their ideas and
+          us developers help make them come true.
+        </p>
+        <ul class="skillsList">
+          <li class="desTitle">Languages</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>C/C++, C#, Java</li>
+          <li>MySQL, Python, MATLAB</li>
+
+          <li class="desTitle">Library / Framework</li>
+          <li>ExpressJS, JQuery, SASS</li>
+          <li>ReactJS</li>
+          <li>Selenium, MochaJS, ProtractorJS</li>
+
+          <li class="desTitle">Dev Tools</li>
+          <li>Atom</li>
+          <li>GitHub</li>
+          <li>CodePen</li>
+          <li>Terminal</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box2">
+      <div class="box2Icon">
+        <img class="PenLogo" src="../home/image/pen.svg">
+      </div>
+
+      <div class="description">
+        <h3>Skills</h3>
+        <p>
+          Some of the skills using the languages, frameworks, and libraries on the left are:
+        </p>
+
+        <ul class="skillsList">
+          <li>CSS Preprocessing</li>
+          <li>Version Control / Git</li>
+          <li>Responsive Design</li>
+          <li>Testing / Debugging</li>
+          <li>Automaton Tools / Web Performance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box3">
+      <div class="box3Icon">
+        <img class="workLogo" src="../home/image/work.svg">
+      </div>
+
+      <div class="description">
+        <h3>Other Interests</h3>
+        <p>
+          Besides web development, some other interests of mine are data analysis and machine learning. During my years as
+          an undergraduate and graduate student at my college; I participated in research conferences.
+        </p>
+        <p class="topicStart">A couple of topics I submitted are:</p>
+
+        <ul class="interestList">
+          <li>
+            Analysis of Large Datasets with Different Distance Algorithms
+            <p class="interestDescrip">
+              Partitioning data points in the dataset into groups with cluster centers corresponding to each groups.
+              Using different distance algorithms to analyze and validate the cluster centers we can tell if they
+              are partitioned correctly.
+            </p>
+            <p>Written with MATLAB</p>
+          </li>
+
+          <li>
+            Style Transfer
+            <p class="interestDescrip">
+              Using the pre-trained Convolutional Neural Network, VGG19, along with ImageNet. Using a content image
+              and a style image, we should be able to redraw the content image with the similar "style" of the style image.
+            </p>
+            <p>Written with Python</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <%- include('../partials/footer') %>
+  <!-- js files -->
+  <script src="../partials/js/navbar.js"></script>
+  <script src="../partials/js/sidebar.js"></script>
+  <script src="../home/function.js"></script>
+</body>
+
+</html>

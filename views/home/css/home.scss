@@ -1,0 +1,26 @@
+@import './../../../public/scss/global-styles';
+@import './_about.scss';
+@import './_skills.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+//font-family: 'Roboto Slab', serif;
+//font-family: 'Dancing Script', cursive;
+
+body {
+  .titleBox {
+    margin-top: 185px;
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-weight: bold;
+      font-size: 40px;
+      text-align: center;
+    }
+    p {
+      margin-top: 30px;
+      font-family: 'Roboto Slab', serif;
+      font-weight: lighter;
+      font-size: 21px;
+      text-align: center;
+    }
+  }
+}
