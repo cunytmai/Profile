@@ -19,11 +19,19 @@ $(document).ready(e => {
   });
 
   $(".skills").on('click',function(e) {
-    window.scrollTo({top:750, behavior:'smooth'})
+    window.scrollTo({top:850, behavior:'smooth'})
   });
 
   $(".projects").on('click',function(e) {
     alertMSG(1500);
+  });
+
+  $(".contacts").on('click',function(e) {
+    $(".contactMe").fadeIn(200);
+  });
+
+  $(".contactMe").on('click',function(e) {
+    $(".contactMe").fadeOut(200);
   });
 
 });

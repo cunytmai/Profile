@@ -5,7 +5,7 @@
   <title>Tony Mai | Web Developer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="TODO">
+  <meta name="description" content="My Profile">
   <%- include('../partials/src') %>
   <link href="/home/css/home.css" rel="stylesheet" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
@@ -15,7 +15,7 @@
 
 <body>
   <%- include('../partials/navbar') %>
-  
+
   <div class="titleBox">
     <h1>Aspiring Front-End Developer, Creeping Towards Full Stack</h1>
     <p>Take full pride of my work and have a blazing passion for Front-End Development, and code in general.</p>
@@ -25,10 +25,12 @@
     <span class="startBodyBracket"></span>
     <div class="aboutMe">
       <h2>Hello, I'm Tony and welcome to my profile.</h2>
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br>
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      <p>Everything started with the interest of building my own website with an interest or meaning.
+         Working in web development, there are tons of tools and frameworks that can be used and
+         learning how to use these new frameworks along with expanding my knowledge on web development is what intrigues me
+         to walk down this path. <br> <br> Besides web development, I also show interest in the world of Data Science and
+         Machine Learning. If you ever want to talk about either of those two topics, feel free to contact me.
+         I would love to chat and discuss what you have in mind.
       </p>
     </div>
     <span class="endBodyBracket"></span>
@@ -124,6 +126,34 @@
       </div>
     </div>
 
+  </div>
+
+  <div class=contactMe>
+    <form method="POST" action="https://formspree.io/cunytmai@gmail.com">
+      <div class=contactContainer>
+        <div class="contactDescription">
+          Thank you for your time in wanting to contact me. <br>
+          I would be pleased to have a nice conversation with you!
+        </div>
+
+        <div class="sender">
+          <div class="name">
+            <div class="txt">Name</div>
+              <input type="name" name="name" placeholder="">
+          </div>
+
+          <div class="email">
+              <div class="txt">Email</div>
+              <input type="email" name="email" placeholder="">
+          </div>
+        </div>
+          <div class="msg">
+            <div class="txt">Message</div>
+            <textarea name="message" placeholder=""></textarea>
+          </div>
+          <button type="submit">Send</button>
+      </div>
+    </form>
   </div>
 
   <%- include('../partials/footer') %>
