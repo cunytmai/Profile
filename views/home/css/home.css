@@ -88,7 +88,7 @@
     left: 10px; }
 
 .footer {
-  height: 350px;
+  height: 375px;
   margin-top: 50px;
   background-color: #8C43FF;
   color: #FFF;
@@ -155,6 +155,14 @@
       text-align: center;
       font-size: 13px;
       font-weight: lighter; }
+    .footer .footerContainer .credits {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: lighter; }
+      .footer .footerContainer .credits .form {
+        width: 15px;
+        height: 15px; }
 
 .aboutBackground {
   height: 850px;
