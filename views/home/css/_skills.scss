@@ -111,3 +111,192 @@
     }
   }
 }
+
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (min-width: 420px) {
+  .skillsFlexbox {
+    margin-top: -270px;
+    .skillsList {
+      padding: 0;
+    }
+    .box1 .description {
+      h3, p {
+        display: none;
+      }
+    }
+    .box2 .description {
+      .skillsList {
+        margin-top: 0;
+      }
+      li {
+        list-style: none;
+        font-size: 18px;
+      }
+      h3, p {
+        display: none;
+      }
+    }
+    .box3 .description {
+      .skillsList {
+        margin-top: 0;
+      }
+      li {
+        list-style: none;
+        font-size: 18px;
+      }
+      h3, p {
+        display: none;
+      }
+      .topicStart{
+        display: block;
+      }
+      .interestList{
+        display: block;
+        padding: 0;
+        li {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .skillsFlexbox {
+    margin-top: -150px;
+    .skillsList {
+      padding: 0;
+    }
+    .box1 {
+      .box1Icon {
+        margin-bottom: 0px;
+      }
+      .description {
+        p {
+          display: none;
+        }
+      }
+    }
+    .box2 {
+      .box2Icon {
+        margin-bottom: 0px;
+      }
+      .description {
+        .skillsList {
+          margin-top: 55px;
+        }
+        p {
+          display: none;
+        }
+        li {
+          list-style: none;
+          font-size: 18px;
+        }
+      }
+    }
+    .box3{
+      .description {
+        margin: 50px 5px 50px 25px;
+        .skillsList {
+          margin-top: 0;
+        }
+        p {
+          display: none;
+        }
+        li {
+          font-size: 18px;
+        }
+        .topicStart{
+          display: block;
+          margin-left: -10px;
+        }
+        .interestList{
+          display: block;
+          padding: 0;
+          li {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .skillsFlexbox {
+      margin-top: -140px;
+      height: 800px;
+      .skillsList {
+        padding: 0;
+      }
+      .box1 {
+        .description {
+          margin: 50px 5px 50px 5px;
+          h3, p {
+            display: block;
+          }
+        }
+        .skillsList {
+          margin-top: 40px;
+          .desTitle {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+      }
+    }
+    .box2 {
+      .description {
+        h3 {
+          display: block;
+        }
+        p {
+          display: block;
+          margin-top: 40px;
+        }
+        li {
+          margin-left: 20px;
+          list-style: decimal;
+          font-size: 18px;
+        }
+      }
+    }
+    .box3 {
+      .description {
+        margin: 50px 5px 50px 15px;
+        .topicStart {
+          margin-left: 2px;
+        }
+        h3{
+          display: block;
+        }
+        p {
+          display: block;
+          margin-top: 40px;
+        }
+        li {
+          p {
+          display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 850px and up) */
+@media only screen and (min-width: 850px) {
+  .box1 .description p {
+    margin-top: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+//420, 767, 768, 1024, 1025, 1600

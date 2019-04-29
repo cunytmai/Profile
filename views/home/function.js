@@ -30,8 +30,24 @@ $(document).ready(e => {
     $(".contactMe").fadeIn(200);
   });
 
-  $(".contactMe").on('click',function(e) {
+  $(".back").on('click', function(e) {
     $(".contactMe").fadeOut(200);
-  });
+  })
 
+  $(function () {
+         $('form').submit(function () {
+             if ($('#name').val() === "") {
+                 alert('Please enter your name.');
+                 return false;
+             }
+             if ($('#email').val() === "") {
+                 alert('Please enter your email.');
+                 return false;
+             }
+             if ($('#txtarea').val() === "") {
+                 alert('Please enter a message.');
+                 return false;
+             }
+         });
+     })
 });

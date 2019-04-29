@@ -14,11 +14,11 @@
     margin: 20px auto;
     text-align: center;
     display: none; }
-  .navbar-default .container-fluid .navbar-header {
+  .navbar-default .container-fluid .navbar-header .homeLink {
     margin: 15px 0 0 75px; }
-    .navbar-default .container-fluid .navbar-header .logo {
-      width: 95px;
-      height: 95px; }
+  .navbar-default .container-fluid .navbar-header .logo {
+    width: 95px;
+    height: 95px; }
   .navbar-default .container-fluid .navbar-nav {
     float: right;
     margin-right: 100px; }
@@ -56,7 +56,8 @@
       color: white;
       background-color: black; }
   .navbar-default .fa-bars {
-    display: none; }
+    display: none;
+    position: absolute; }
 
 .sideBar {
   position: fixed;
@@ -164,6 +165,64 @@
         width: 15px;
         height: 15px; }
 
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (min-width: 420px) {
+  .container-fluid .navbar-header .homeLink {
+    margin: 0 0 0 40% !important; }
+  .container-fluid .fa-bars {
+    display: block;
+    top: 25px;
+    left: 20px; }
+  .container-fluid .navbar-nav {
+    display: none; } }
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container-fluid .navbar-header .homeLink {
+    margin: 0 0 0 40% !important; }
+  .container-fluid .fa-bars {
+    display: block;
+    top: 25px;
+    left: 20px;
+    width: 100px; }
+  .container-fluid .navbar-nav {
+    display: none; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container-fluid .navbar-header {
+    width: 100%; }
+    .container-fluid .navbar-header .homeLink {
+      margin: 0 0 0 40% !important; }
+  .container-fluid .fa-bars {
+    display: block;
+    top: 25px;
+    left: 20px; }
+  .container-fluid .navbar-nav {
+    display: none; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container-fluid .navbar-header {
+    width: 50px; }
+    .container-fluid .navbar-header .homeLink {
+      margin: 0 0 0 75px !important; }
+  .container-fluid .navbar-nav .contacts {
+    margin-left: 50px !important; }
+  .container-fluid .fa-bars {
+    display: none; }
+  .container-fluid .navbar-nav {
+    display: block; } }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container-fluid .navbar-header {
+    width: 50px; }
+    .container-fluid .navbar-header .homeLink {
+      margin: 15px 0 0 75px !important; }
+  .container-fluid .navbar-nav .contacts {
+    margin-left: 250px !important; } }
+
 .aboutBackground {
   height: 850px;
   margin-top: 100px;
@@ -194,6 +253,47 @@
       font-size: 20px;
       font-weight: lighter; }
 
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (min-width: 420px) {
+  .aboutBackground {
+    padding-top: 10px; }
+    .aboutBackground .aboutMe {
+      height: 550px;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      .aboutBackground .aboutMe p {
+        width: 270px; }
+    .aboutBackground .startBodyBracket, .aboutBackground .endBodyBracket {
+      display: none; } }
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .aboutBackground {
+    padding-top: 10px; }
+    .aboutBackground .aboutMe {
+      height: 550px;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      .aboutBackground .aboutMe p {
+        width: 85%; }
+    .aboutBackground .startBodyBracket, .aboutBackground .endBodyBracket {
+      display: block;
+      margin-left: 10px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .aboutBackground {
+    padding-top: 10px; }
+    .aboutBackground .aboutMe {
+      height: 550px; }
+      .aboutBackground .aboutMe p {
+        width: 65%; }
+    .aboutBackground .startBodyBracket, .aboutBackground .endBodyBracket {
+      display: block;
+      margin-left: 25px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 .skillsFlexbox {
   display: flex;
   width: 90%;
@@ -282,6 +382,116 @@
     .skillsFlexbox .box3 .interestDescrip {
       margin-top: 5px; }
 
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (min-width: 420px) {
+  .skillsFlexbox {
+    margin-top: -270px; }
+    .skillsFlexbox .skillsList {
+      padding: 0; }
+    .skillsFlexbox .box1 .description h3, .skillsFlexbox .box1 .description p {
+      display: none; }
+    .skillsFlexbox .box2 .description .skillsList {
+      margin-top: 0; }
+    .skillsFlexbox .box2 .description li {
+      list-style: none;
+      font-size: 18px; }
+    .skillsFlexbox .box2 .description h3, .skillsFlexbox .box2 .description p {
+      display: none; }
+    .skillsFlexbox .box3 .description .skillsList {
+      margin-top: 0; }
+    .skillsFlexbox .box3 .description li {
+      list-style: none;
+      font-size: 18px; }
+    .skillsFlexbox .box3 .description h3, .skillsFlexbox .box3 .description p {
+      display: none; }
+    .skillsFlexbox .box3 .description .topicStart {
+      display: block; }
+    .skillsFlexbox .box3 .description .interestList {
+      display: block;
+      padding: 0; }
+      .skillsFlexbox .box3 .description .interestList li {
+        margin-top: 50px; } }
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .skillsFlexbox {
+    margin-top: -150px; }
+    .skillsFlexbox .skillsList {
+      padding: 0; }
+    .skillsFlexbox .box1 .box1Icon {
+      margin-bottom: 0px; }
+    .skillsFlexbox .box1 .description p {
+      display: none; }
+    .skillsFlexbox .box2 .box2Icon {
+      margin-bottom: 0px; }
+    .skillsFlexbox .box2 .description .skillsList {
+      margin-top: 55px; }
+    .skillsFlexbox .box2 .description p {
+      display: none; }
+    .skillsFlexbox .box2 .description li {
+      list-style: none;
+      font-size: 18px; }
+    .skillsFlexbox .box3 .description {
+      margin: 50px 5px 50px 25px; }
+      .skillsFlexbox .box3 .description .skillsList {
+        margin-top: 0; }
+      .skillsFlexbox .box3 .description p {
+        display: none; }
+      .skillsFlexbox .box3 .description li {
+        font-size: 18px; }
+      .skillsFlexbox .box3 .description .topicStart {
+        display: block;
+        margin-left: -10px; }
+      .skillsFlexbox .box3 .description .interestList {
+        display: block;
+        padding: 0; }
+        .skillsFlexbox .box3 .description .interestList li {
+          margin-top: 50px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .skillsFlexbox {
+    margin-top: -140px;
+    height: 800px; }
+    .skillsFlexbox .skillsList {
+      padding: 0; }
+    .skillsFlexbox .box1 .description {
+      margin: 50px 5px 50px 5px; }
+      .skillsFlexbox .box1 .description h3, .skillsFlexbox .box1 .description p {
+        display: block; }
+    .skillsFlexbox .box1 .skillsList {
+      margin-top: 40px; }
+      .skillsFlexbox .box1 .skillsList .desTitle {
+        margin-top: 20px;
+        margin-bottom: 20px; }
+    .skillsFlexbox .box2 .description h3 {
+      display: block; }
+    .skillsFlexbox .box2 .description p {
+      display: block;
+      margin-top: 40px; }
+    .skillsFlexbox .box2 .description li {
+      margin-left: 20px;
+      list-style: decimal;
+      font-size: 18px; }
+    .skillsFlexbox .box3 .description {
+      margin: 50px 5px 50px 15px; }
+      .skillsFlexbox .box3 .description .topicStart {
+        margin-left: 2px; }
+      .skillsFlexbox .box3 .description h3 {
+        display: block; }
+      .skillsFlexbox .box3 .description p {
+        display: block;
+        margin-top: 40px; }
+      .skillsFlexbox .box3 .description li p {
+        display: none; } }
+
+/* Large devices (laptops/desktops, 850px and up) */
+@media only screen and (min-width: 850px) {
+  .box1 .description p {
+    margin-top: 40px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 .contactMe {
   position: absolute;
   top: 0;
@@ -300,6 +510,13 @@
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight: lighter; }
+    .contactMe .contactContainer .back {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      transition: 200ms; }
+    .contactMe .contactContainer .back:hover {
+      color: #D3D3D3; }
     .contactMe .contactContainer .contactDescription {
       font-size: 25px;
       text-align: center;

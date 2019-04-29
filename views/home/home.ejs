@@ -131,6 +131,10 @@
   <div class=contactMe>
     <form method="POST" action="https://formspree.io/cunytmai@gmail.com">
       <div class=contactContainer>
+        <div class="back">
+          <i class="fas fa-arrow-left fa-lg"></i>
+        </div>
+
         <div class="contactDescription">
           Thank you for your time in wanting to contact me. <br>
           I would be pleased to have a nice conversation with you!
@@ -139,17 +143,17 @@
         <div class="sender">
           <div class="name">
             <div class="txt">Name</div>
-              <input type="name" name="name" placeholder="">
+              <input id="name" type="name" name="name" placeholder="">
           </div>
 
           <div class="email">
               <div class="txt">Email</div>
-              <input type="email" name="email" placeholder="">
+              <input id="email" type="email" name="email" placeholder="">
           </div>
         </div>
           <div class="msg">
             <div class="txt">Message</div>
-            <textarea name="message" placeholder=""></textarea>
+            <textarea id="txtarea" name="message" placeholder=""></textarea>
           </div>
           <button type="submit">Send</button>
       </div>

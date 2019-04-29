@@ -16,6 +16,15 @@
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight: lighter;
+    .back {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      transition: 200ms;
+    }
+    .back:hover {
+      color: #D3D3D3;
+    }
     .contactDescription {
       font-size: 25px;
       text-align: center;

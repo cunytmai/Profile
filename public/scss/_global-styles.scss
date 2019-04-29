@@ -16,7 +16,9 @@
   }
   .container-fluid {
     .navbar-header {
-      margin: 15px 0 0 75px;
+      .homeLink {
+        margin: 15px 0 0 75px;
+      }
       .logo {
         width: 95px;
         height: 95px;
@@ -73,6 +75,7 @@
   }
   .fa-bars {
     display: none;
+    position: absolute;
   }
 }
 
@@ -204,3 +207,102 @@
     }
   }
 }
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (min-width: 420px) {
+  .container-fluid {
+    .navbar-header {
+      .homeLink {
+        margin: 0 0 0 40% !important;
+      }
+    }
+    .fa-bars {
+      display: block;
+      top: 25px;
+      left: 20px;
+    }
+    .navbar-nav {
+      display: none;
+    }
+  }
+}
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container-fluid {
+    .navbar-header {
+      .homeLink {
+        margin: 0 0 0 40% !important;
+      }
+    }
+    .fa-bars {
+      display: block;
+      top: 25px;
+      left: 20px;
+      width: 100px;
+    }
+    .navbar-nav {
+      display: none;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container-fluid {
+    .navbar-header {
+      width: 100%;
+      .homeLink {
+        margin: 0 0 0 40% !important;
+      }
+    }
+    .fa-bars {
+      display: block;
+      top: 25px;
+      left: 20px;
+    }
+    .navbar-nav {
+      display: none;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    .navbar-header {
+      width: 50px;
+      .homeLink {
+        margin: 0 0 0 75px !important;
+      }
+    }
+    .navbar-nav {
+      .contacts {
+        margin-left: 50px !important;
+      }
+    }
+    .fa-bars {
+      display: none;
+    }
+    .navbar-nav {
+      display: block;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container-fluid {
+    .navbar-header {
+      width: 50px;
+      .homeLink {
+        margin: 15px 0 0 75px !important;
+      }
+    }
+    .navbar-nav {
+      .contacts {
+        margin-left: 250px !important;
+      }
+    }
+  }
+}
+//420, 767, 768, 1024, 1025, 1600

@@ -33,3 +33,66 @@
     }
   }
 }
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (min-width: 420px) {
+  .aboutBackground {
+    padding-top: 10px;
+    .aboutMe {
+      height: 550px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      p {
+        width: 270px;
+      }
+    }
+    .startBodyBracket, .endBodyBracket {
+      display: none;
+    }
+  }
+}
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .aboutBackground {
+    padding-top: 10px;
+    .aboutMe {
+      height: 550px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      p {
+        width: 85%;
+      }
+    }
+    .startBodyBracket, .endBodyBracket {
+      display: block;
+      margin-left: 10px;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .aboutBackground {
+    padding-top: 10px;
+    .aboutMe {
+      height: 550px;
+      p {
+        width: 65%;
+      }
+    }
+    .startBodyBracket, .endBodyBracket {
+      display: block;
+      margin-left: 25px;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  //about me height is 850px
+}
+//420, 767, 768, 1024, 1025, 1600
