@@ -116,6 +116,7 @@
 @media only screen and (min-width: 420px) {
   .skillsFlexbox {
     margin-top: -270px;
+    height: 700px;
     .skillsList {
       padding: 0;
     }
@@ -164,7 +165,7 @@
 /* Small devices (phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .skillsFlexbox {
-    margin-top: -150px;
+    margin-top: -110px;
     .skillsList {
       padding: 0;
     }
@@ -226,7 +227,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .skillsFlexbox {
-      margin-top: -140px;
+      margin-top: -110px;
       height: 800px;
       .skillsList {
         padding: 0;
@@ -294,9 +295,52 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .skillsFlexbox {
+    height: 960px;
+    .box1 {
+      .description .skillsList {
+        margin-top: 60px;
+      }
+    }
+    .box2 {
+      .description .skillsList {
+        margin-top: 125px;
+      }
+    }
+    .box3 {
+      .description {
+        margin: 50px 5px 50px 23px;
+        .topicStart {
+          margin-top: 36px;
+        }
+        p {
+          margin-top: 40px;
+        }
+        .interestList {
+          li {
+            margin-top: 15px;
+            list-style: decimal;
+            p {
+            display: block;
+            margin-top: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .skillsFlexbox {
+    margin-top: -170px;
+    height: 800px;
+    .box2 {
+      .description .skillsList {
+        margin-top: 100px;
+      }
+    }
+  }
 }
 //420, 767, 768, 1024, 1025, 1600

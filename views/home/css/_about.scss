@@ -66,6 +66,7 @@
     .startBodyBracket, .endBodyBracket {
       display: block;
       margin-left: 10px;
+      padding-top: 20px;
     }
   }
 }
@@ -89,10 +90,29 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .aboutBackground {
+    .aboutMe {
+      p {
+        width: 55%;
+      }
+    }
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .aboutBackground {
+    padding-top: 29px;
+    .startBodyBracket, .endBodyBracket {
+      margin-left: 150px;
+    }
+    .aboutMe {
+      height: 440px;
+      p {
+        width: 60%;
+      }
+    }
+  }
   //about me height is 850px
 }
 //420, 767, 768, 1024, 1025, 1600

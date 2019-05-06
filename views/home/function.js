@@ -15,6 +15,9 @@ $(document).ready(e => {
   });
 
   $(".about").on('click',function(e) {
+    // $('html, body').animate({
+    //   scrollTop: $(".aboutBackground").offset().top
+    // }, 500);
     window.scrollTo({top:320, behavior:'smooth'})
   });
 
