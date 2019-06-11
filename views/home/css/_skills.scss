@@ -112,217 +112,426 @@
   }
 }
 
-/* Extra small devices (phones, 420px and down) */
-@media only screen and (min-width: 420px) {
+@media only screen and (max-width: 299px) {
   .skillsFlexbox {
-    margin-top: -270px;
-    height: 700px;
-    .skillsList {
-      padding: 0;
-    }
+    margin-top: -120px;
+    height: 680px;
     .box1 .description {
-      h3, p {
+      h3 {
+        font-size: 15px;
+      }
+      p {
         display: none;
+      }
+      .skillsList {
+        padding: 0;
+        .desTitle {
+          font-size: 15px;
+        }
+        li {
+          font-size: 10px;
+        }
       }
     }
     .box2 .description {
-      .skillsList {
-        margin-top: 0;
-      }
-      li {
-        list-style: none;
+      h3 {
         font-size: 18px;
       }
-      h3, p {
+      p {
         display: none;
+      }
+      .skillsList {
+        padding: 10px;
+        margin-top: 28px;
+        li {
+          font-size: 11px;
+        }
       }
     }
     .box3 .description {
-      .skillsList {
-        margin-top: 0;
+      h3 {
+        font-size: 15px;
       }
-      li {
-        list-style: none;
-        font-size: 18px;
-      }
-      h3, p {
+      p {
         display: none;
       }
-      .topicStart{
-        display: block;
-      }
-      .interestList{
-        display: block;
-        padding: 0;
+      .interestList {
+        padding-left: 10px;
         li {
-          margin-top: 50px;
+          font-size: 11px;
+          margin-top: 45px;
         }
       }
     }
   }
 }
 
-/* Small devices (phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
   .skillsFlexbox {
-    margin-top: -110px;
-    .skillsList {
-      padding: 0;
-    }
-    .box1 {
-      .box1Icon {
-        margin-bottom: 0px;
+    margin-top: -120px;
+    height: 680px;
+    .box1 .description {
+      h3 {
+        font-size: 15px;
       }
-      .description {
-        p {
-          display: none;
-        }
+      p {
+        display: none;
       }
-    }
-    .box2 {
-      .box2Icon {
-        margin-bottom: 0px;
-      }
-      .description {
-        .skillsList {
-          margin-top: 55px;
-        }
-        p {
-          display: none;
-        }
-        li {
-          list-style: none;
-          font-size: 18px;
-        }
-      }
-    }
-    .box3{
-      .description {
-        margin: 50px 5px 50px 25px;
-        .skillsList {
-          margin-top: 0;
-        }
-        p {
-          display: none;
-        }
-        li {
-          font-size: 18px;
-        }
-        .topicStart{
-          display: block;
-          margin-left: -10px;
-        }
-        .interestList{
-          display: block;
-          padding: 0;
-          li {
-            margin-top: 50px;
-          }
-        }
-      }
-    }
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .skillsFlexbox {
-      margin-top: -110px;
-      height: 800px;
       .skillsList {
         padding: 0;
+        .desTitle {
+          font-size: 15px;
+        }
+        li {
+          font-size: 10px;
+        }
       }
-      .box1 {
-        .description {
-          margin: 50px 5px 50px 5px;
-          h3, p {
-            display: block;
+    }
+    .box2 .description {
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 10px;
+        margin-top: 28px;
+        li {
+          font-size: 11px;
+        }
+      }
+    }
+    .box3 .description {
+      h3 {
+        font-size: 15px;
+      }
+      p {
+        display: none;
+      }
+      .interestList {
+        padding-left: 10px;
+        li {
+          font-size: 11px;
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .skillsFlexbox {
+    margin-top: -170px;
+    height: 680px;
+    .box1 .description {
+      h3 {
+        font-size: 15px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 0;
+        .desTitle {
+          font-size: 15px;
+        }
+        li {
+          font-size: 10px;
+        }
+      }
+    }
+    .box2 .description {
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 10px;
+        margin-top: 28px;
+        li {
+          font-size: 11px;
+        }
+      }
+    }
+    .box3 .description {
+      h3 {
+        font-size: 15px;
+      }
+      p {
+        display: none;
+      }
+      .interestList {
+        padding-left: 10px;
+        li {
+          font-size: 11px;
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+  .skillsFlexbox {
+    margin-top: -100px;
+    height: 650px;
+    .box1 .description {
+      h3 {
+        font-size: 15px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 0;
+        .desTitle {
+          font-size: 15px;
+        }
+        li {
+          font-size: 10px;
+        }
+      }
+    }
+    .box2 .description {
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 10px;
+        margin-top: 28px;
+        li {
+          font-size: 11px;
+        }
+      }
+    }
+    .box3 .description {
+      h3 {
+        font-size: 15px;
+      }
+      p {
+        display: none;
+      }
+      .interestList {
+        padding-left: 10px;
+        li {
+          font-size: 11px;
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .skillsFlexbox {
+    margin-top: -150px;
+    height: 740px;
+    .box1 .description {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 0;
+        .desTitle {
+          font-size: 20px;
+        }
+        li {
+          font-size: 15px;
+        }
+      }
+    }
+    .box2 .description {
+      h3 {
+        font-size: 23px;
+      }
+      p {
+        display: none;
+      }
+      .skillsList {
+        padding: 10px;
+        margin-top: 12px;
+        li {
+          font-size: 15px;
+          margin-top: 42px;
+          margin-left: 10px;
+        }
+      }
+    }
+    .box3 .description {
+      h3 {
+        font-size: 20px;
+        margin-bottom: 67px;
+      }
+      p {
+        display: block;
+        font-size: 15px;
+      }
+      .topicStart {
+        margin: 20px 0 10px 0;
+        font-size: 20px;
+      }
+      .interestList {
+        padding-left: 10px;
+        li {
+          font-size: 15px;
+          margin-top: 20px;
+          margin-left: 5px;
+          p {
+            display: none;
           }
+        }
+      }
+    }
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .skillsFlexbox {
+    display: flex;
+    width: 90%;
+    height: 820px;
+    margin: 0 auto;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    border: 1px solid #E6ECF8;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #E6ECF8;
+    background-color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    h3 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    p {
+      // margin: 50px 5px 50px 5px;
+      font-size: 15px;
+      font-weight: lighter;
+    }
+    .skillsList {
+      list-style: none;
+      li {
+        font-weight: lighter;
+      }
+      .desTitle {
+        font-size: 20px;
+        font-weight: normal;
+        color: #8C43FF;
+        text-decoration: underline;
+      }
+    }
+    .box1 {
+      width: 33.33%;
+      border-right: 1px solid #E6ECF8;
+      text-align: center;
+      .box1Icon {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .description {
+        margin: 50px 5px 50px 5px;
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          display: block;
+        }
+      }
+      .skillsList {
+        margin-top: 40px;
+        .desTitle {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .box2 {
+      width: 33.33%;
+      border-right: 1px solid #E6ECF8;
+      text-align: center;
+      .box2Icon {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .description {
+        margin: 50px 5px 50px 5px;
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          display: block;
         }
         .skillsList {
-          margin-top: 40px;
-          .desTitle {
+          margin-top: 60px;
+          li {
+            font-size: 20px;
             margin-top: 20px;
-            margin-bottom: 20px;
+            margin-left: 15px;
+            text-align: left;
+            list-style-type: decimal;
           }
+        }
       }
     }
-    .box2 {
+    .box3 {
+      width: 33.33%;
+      text-align: center;
+      .box3Icon {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      li {
+        font-size: 20px;
+        text-align: left;
+        list-style-type: decimal;
+      }
+      .topicStart {
+        margin-top: 40px;
+        margin-left: 5px;
+        font-size: 20px;
+        font-weight: normal;
+        color: #8C43FF;
+        text-align: left;
+      }
       .description {
+        margin: 50px 5px 50px 5px;
         h3 {
-          display: block;
+          font-size: 30px;
+          margin-bottom: 15px;
         }
         p {
           display: block;
-          margin-top: 40px;
         }
-        li {
-          margin-left: 20px;
-          list-style: decimal;
-          font-size: 18px;
-        }
-      }
-    }
-    .box3 {
-      .description {
-        margin: 50px 5px 50px 15px;
         .topicStart {
-          margin-left: 2px;
-        }
-        h3{
-          display: block;
-        }
-        p {
-          display: block;
-          margin-top: 40px;
-        }
-        li {
-          p {
-          display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-/* Large devices (laptops/desktops, 850px and up) */
-@media only screen and (min-width: 850px) {
-  .box1 .description p {
-    margin-top: 40px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .skillsFlexbox {
-    height: 960px;
-    .box1 {
-      .description .skillsList {
-        margin-top: 60px;
-      }
-    }
-    .box2 {
-      .description .skillsList {
-        margin-top: 125px;
-      }
-    }
-    .box3 {
-      .description {
-        margin: 50px 5px 50px 23px;
-        .topicStart {
-          margin-top: 36px;
-        }
-        p {
-          margin-top: 40px;
+          margin-top: 30px;
+          font-size: 23px;
         }
         .interestList {
           li {
-            margin-top: 15px;
-            list-style: decimal;
             p {
-            display: block;
-            margin-top: 15px;
+              display: block;
             }
           }
         }
@@ -330,17 +539,3 @@
     }
   }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .skillsFlexbox {
-    margin-top: -170px;
-    height: 800px;
-    .box2 {
-      .description .skillsList {
-        margin-top: 100px;
-      }
-    }
-  }
-}
-//420, 767, 768, 1024, 1025, 1600

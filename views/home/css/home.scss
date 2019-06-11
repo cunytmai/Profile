@@ -25,3 +25,74 @@ body {
     }
   }
 }
+
+@media only screen and (max-width: 299px) {
+  body {
+    .titleBox {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  body {
+    .titleBox {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+  body {
+    .titleBox {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+   body {
+    .titleBox {
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  body {
+    .titleBox {
+      margin-left: 150px;
+      width: 80%;
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 23px;
+      }
+    }
+  }
+}

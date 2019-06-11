@@ -37,6 +37,10 @@ $(document).ready(e => {
     $(".contactMe").fadeOut(200);
   })
 
+  $(".fa-bars").on('click', function(e) {
+    $(".navbar-nav").slideToggle();
+  })
+
   $(function () {
          $('form').submit(function () {
              if ($('#name').val() === "") {
