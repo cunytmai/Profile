@@ -180,6 +180,14 @@
     text-align: center;
     padding-left: 5px;
     padding-top: 20px; }
+    .navbar-default .container-fluid .navbar-nav .home {
+      margin-right: 250px; }
+    .navbar-default .container-fluid .navbar-nav .about {
+      margin-right: 250px; }
+    .navbar-default .container-fluid .navbar-nav .skills {
+      margin-right: 250px; }
+    .navbar-default .container-fluid .navbar-nav .projects {
+      margin-right: 250px; }
     .navbar-default .container-fluid .navbar-nav .contacts {
       display: none; }
   .footer {
@@ -225,19 +233,27 @@
         transition: 150ms;
         cursor: pointer; }
       .navbar-default .container-fluid .navbar-nav .home {
-        padding: 0 5px 0 5px; }
+        padding: 0 5px 0 5px;
+        margin: 40px 10px; }
       .navbar-default .container-fluid .navbar-nav .home:hover {
         border-bottom: 2px solid black; }
+      .navbar-default .container-fluid .navbar-nav .about {
+        margin: 40px 10px; }
       .navbar-default .container-fluid .navbar-nav .about:hover {
         border-bottom: 2px solid black; }
+      .navbar-default .container-fluid .navbar-nav .skills {
+        margin: 40px 10px; }
       .navbar-default .container-fluid .navbar-nav .skills:hover {
         border-bottom: 2px solid black; }
+      .navbar-default .container-fluid .navbar-nav .projects {
+        margin: 40px 10px; }
       .navbar-default .container-fluid .navbar-nav .projects:hover {
         border-bottom: 2px solid black; }
       .navbar-default .container-fluid .navbar-nav .contacts {
         border: 1px solid black;
         padding: 0 10px 0 10px;
         border-radius: 10px;
+        margin: 40px 10px;
         transition: 250ms;
         transition-delay: 100ms;
         display: block; }
