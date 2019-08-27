@@ -272,16 +272,7 @@
         text-align: center;
         padding-left: 5px;
         padding-top: 20px;
-        .home {
-          margin-right: 250px;
-        }
-        .about {
-          margin-right: 250px;
-        }
-        .skills {
-          margin-right: 250px;
-        }
-        .projects {
+        li {
           margin-right: 250px;
         }
         .contacts {
@@ -341,33 +332,29 @@
           font-family: 'Roboto Slab', serif;
           font-size: 25px;
           font-weight: normal;
-          margin: 40px 15px 0 0;
+          margin: 40px 10px 0 0;
           transition: 150ms;
           cursor: pointer;
         }
         .home {
           padding: 0 5px 0 5px;
-          margin: 40px 10px;
         }
         .home:hover {
           border-bottom: 2px solid black;
         }
         .about {
-          margin: 40px 10px;
           // padding: 0 5px 0 5px;
         }
         .about:hover {
           border-bottom: 2px solid black;
         }
         .skills {
-          margin: 40px 10px;
           // padding: 0 5px 0 5px;
         }
         .skills:hover {
           border-bottom: 2px solid black;
         }
         .projects {
-          margin: 40px 10px;
           // padding: 0 5px 0 5px;
         }
         .projects:hover {
@@ -377,7 +364,6 @@
           border: 1px solid black;
           padding: 0 10px 0 10px;
           border-radius: 10px;
-          margin: 40px 10px;
           // margin-left: 250px;
           transition: 250ms;
           transition-delay: 100ms;
